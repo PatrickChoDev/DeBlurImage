@@ -2,9 +2,8 @@ import os
 import numpy as np
 import PIL.Image as Image
 
-def isImageFile(file : str) -> bool:
-    EXTENSION = ['.jpg','.png','.jpeg']
-    for EXTENSION in file :
+def isImageFile(fileName : str) -> bool:
+    if ['.jpg','.png','.jpeg'] in fileName :
         return True
     return False
 
