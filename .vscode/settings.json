@@ -2,5 +2,4 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.dataScience.jupyterServerURI": "local",
-    "python.pythonPath": "/home/patrick/.local/share/virtualenvs/DeblurImage-MfYpB5JS/bin/python"
 }
